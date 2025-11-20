@@ -1,0 +1,20 @@
+O Projeto Florescer é um aplicativo educacional desenvolvido para meninas de 9 a 12 anos. 
+O objetivo central é guiá-las em uma jornada lúdica de autoconhecimento e compreensão das fases do ciclo de vida, desde as mudanças corporais até a gestão de emoções. 
+O conceito visual é baseado em uma Margarida desabrochando, onde cada conteúdo temático é representado por "Ilhas" ou "Pétalas" interativas. 
+A estética é de um cenário 2D que lembra jogos educativos clássicos.
+
+O código em C do Módulo de Pontuação serve como o coração lógico e matemático do projeto. 
+Sua principal função é registrar o progresso da usuária e fornecer reforço positivo.
+
+Como a Pontuação será Usada
+A pontuação é o mecanismo que transforma o aplicativo em um jogo engajador:
+* Geração de Pontos: A lógica no código C é chamada sempre que a usuária completa uma atividade, como acertar um quiz na "Pétala do Corpo" ou solucionar um enigma na "Ilha das Emoções". 
+A função adicionarPontos(valor) faz a soma e notifica o sistema.
+
+* Persistência: O código garante que o progresso não seja perdido. 
+A função salvarPontuacao() registra o score atual em um arquivo, e carregarPontuacao() o recupera quando o aplicativo é aberto novamente, mantendo a consistência do progresso.
+
+* Sistema de Recompensa: A pontuação acumulada é o indicativo do seu progresso.
+Futuramente, esses pontos poderão ser usados para desbloquear novos conteúdos, conquistas ou itens visuais para personalizar a Margarida ou o mapa.
+
+Portanto, o código em C cumpre o requisito da disciplina ao implementar a lógica funcional (somar e resetar) e a persistência de dados (salvar o estado do jogo), sendo crucial para a interatividade e a manutenção do engajamento no Projeto Florescer.
